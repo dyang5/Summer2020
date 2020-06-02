@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+    
+{% block container %}
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <center><img src="http://clipart-library.com/img/1785835.jpg" class="d-block w-10" alt="..."></center>
+          </div>
+          <div class="carousel-item">
+            <center><img src="https://making-the-web.com/sites/default/files/clipart/162043/person-studying-cliparts-162043-7934401.png" class="d-block w-10" alt="..."></center>
+          </div>
+          <div class="carousel-item">
+            <center><img src="https://making-the-web.com/sites/default/files/clipart/162043/person-studying-cliparts-162043-5980716.jpg" class="d-block w-10" alt="..."></center>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="top-pad">
+        <h1>Summer 2020 Tutoring Thing</h1>
+    </div>
+    <center>
+    <p>
+        Hi! We're a group of alumni from the College Preparatory School aiming to help students across the country get ahead on classes or curriculum that they may have missed due to quarantine. One of the rare benefits of quarantine is that we'll be able to reach out not just to students locally, but all across the country. So why us? We're a group of students representing myriad colleges and universities, such as Harvard, UPenn, UMich, and more! Moreover, our sole focus this summer will be on designing and perfecting curriculum, which means we'll be dedicated towards making sure your child succeeds!  
+    </p>
+    </center>
+{% endblock %}
