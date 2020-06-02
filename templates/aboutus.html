@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+    
+{% block container %}
+    <div class="top-pad">
+        <h1>About Us</h1>
+        <br>
+        {% for id, class in classes.items() %}
+         <div class="jumbotron">
+            <h1 class="display-4">{{class['name']}}</h1>
+            <p class="lead">$ {{class['price']}}</p>
+            <p class="lead">{{class['time']}}</p>
+         </div>
+        {% endfor %}
+    </div>
+{% endblock %}
